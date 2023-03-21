@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Radu
+ *
+ */
+module CursJava {
+}
