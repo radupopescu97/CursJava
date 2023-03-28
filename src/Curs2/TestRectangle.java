@@ -8,6 +8,9 @@ public class TestRectangle {
 		rectangle.setLenght(5);
 		rectangle.setWidth(3);
 		System.out.println(rectangle.calculateArea());
+	
+		Rectangle rectangle2 = new Rectangle(5, 5);
+		System.out.println(rectangle.calculateArea());
 		
 	}
 

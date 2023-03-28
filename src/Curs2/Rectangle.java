@@ -6,6 +6,12 @@ public class Rectangle {
 	private int lenght;
 	private int width;
 	
+	public Rectangle() {}
+	
+	public Rectangle(int lenght, int width) {
+	setLenght(lenght);
+	setWidth(width);
+	}
 	
 	public int getLenght() {
 		return lenght;
