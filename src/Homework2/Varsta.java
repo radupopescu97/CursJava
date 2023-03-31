@@ -19,7 +19,7 @@ public class Varsta {
 	
 	public void compareTheAge () {
 		
-		if(varsta < 18) {
+		if(varsta>=0 && varsta < 18) {
 			
 			System.out.println("Esti minor");
 	
@@ -27,9 +27,12 @@ public class Varsta {
 		
 			System.out.println("Esti batran");
 
-		}else {
+		}else if(varsta >= 18 && varsta <= 65){
 			System.out.println("Esti adult");
 
+		}else {
+			
+			System.out.println("Nr. Invalid");
 		}
 		
 		

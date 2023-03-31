@@ -19,7 +19,7 @@ public void askForDay () {
 public void showTheDay () {
 	
 	
-if(zi == 0)	{
+if(zi <= 0)	{
 	System.out.println("Te rog sa introduci un numar mai mare ca 0");
 }else if(zi == 1) {
 	System.out.println("Astazi e luni");

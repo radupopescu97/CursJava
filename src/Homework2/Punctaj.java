@@ -22,8 +22,11 @@ int punctaj;
 		if(punctaj >= 0 && punctaj <= 65) {
 			
 			System.out.println("Ai picat. Mai incearca");
-		} else {
+		} else if(punctaj > 65){
 			System.out.println("Felicitari, Ai trecut");
+		} else {
+			
+			System.out.println("Numar invalid");
 		}
 		
 		
